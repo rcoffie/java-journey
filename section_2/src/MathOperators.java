@@ -45,5 +45,36 @@ public class MathOperators {
         System.out.println( " Andromeda has " + (startInAndromeda/startInMilkyWay) + "times more stars");
         System.out.println("Snape caught the error. Furious, he divided Ron's Score to:" + (testScore/bonusMarks) + "testScore/bonusMarks" );
 
+
+//        % Operator
+
+        System.out.println("10 is an even number, since dividing 10 by 2 has a reminder of: " + (10 % 2));
+        System.out.println("5 is an odd number, since dividing 5 by 2 has a reminder of:" + (5 % 2));
+
+//        ++ Operator increase the value by one
+
+        int counter = 0;
+        counter++;
+        counter++;
+        counter++;
+        System.out.println("I count: " + (counter));
+
+        counter--;
+        counter--;
+        counter--;
+        System.out.println("I count: " + ( counter));
+
+//        -= Operator
+
+
+
+
+
+
+
+
+
+
+
     }
 }
